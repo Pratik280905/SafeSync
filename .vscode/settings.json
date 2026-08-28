@@ -1,0 +1,11 @@
+{
+	"python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
+	"rocketride.development.connectionMode": "local",
+	"rocketride.welcomeDismissed": true,
+	"rocketride.integrations.cursor": true,
+	"rocketride.integrations.autoAgentIntegration": true,
+	"rocketride.defaultPipelinePath": "${workspaceFolder}/pipelines",
+	"files.associations": {
+		"*.pipe": "json"
+	}
+}

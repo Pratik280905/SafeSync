@@ -1,0 +1,22 @@
+{
+	"components": [
+		{
+			"id": "input",
+			"provider": "webhook",
+			"config": {}
+		},
+		{
+			"id": "processor",
+			"provider": "transform",
+			"config": {},
+			"input": [{ "lane": "text", "from": "input" }]
+		},
+		{
+			"id": "output",
+			"provider": "response_text",
+			"config": {},
+			"input": [{ "lane": "text", "from": "processor" }]
+		}
+	],
+	"project_id": "a3c8e1d0-7b54-4f2a-9e16-2c0d8b4f91aa"
+}
