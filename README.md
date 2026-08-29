@@ -12,6 +12,7 @@ SafetySync is a multi-agent AI system that helps EHS (Environment, Health & Safe
 
 Instead of treating every incident report as an isolated event, SafetySync builds a shared memory of historical incidents and uses it to uncover patterns that would otherwise stay hidden across different locations.
 
+Demo link: https://drive.google.com/file/d/1Jy7QsZHCJg269W4VOsdwPmjKkCqNUdDY/view?usp=sharing
 ---
 
 ## 🚨 The Problem
