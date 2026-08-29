@@ -222,7 +222,60 @@ SafetySync/
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Getting Started (hackathon demo)
+
+The product you show judges is the FastAPI + four-screen UI. Clauses live in `data/regulations.json` and are retrieved at runtime. RocketRide remains in `pipes/` and `pipelines/` for the orchestration story; the live path calls Groq from Python if the engine is down (the documented fallback).
+
+### 1. Python env
+
+```bash
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+```
+
+### 2. API key (Groq)
+
+Copy `.env.example` to `.env` and set **both**:
+
+```
+ROCKETRIDE_GROQ_KEY=gsk_...
+GROQ_API_KEY=gsk_...
+```
+
+Free key: https://console.groq.com/keys
+
+If Groq is missing or rate-limited, seed data still fills the Clock Board via a deterministic fallback. Live **Intake field report** uses Groq when the key works.
+
+Optional: `SAFESYNC_USE_LLM=0` forces the fallback everywhere.
+
+### 3. Seed and run
+
+```bash
+python scripts/seed_db.py
+python -m uvicorn app.main:app --reload --port 8000
+```
+
+In another terminal:
+
+```bash
+cd ui
+npm install
+npm run dev
+```
+
+Open http://127.0.0.1:5173 — start on **How it works**.
+
+To put the two AI nodes on RocketRide Cloud and serve one URL for judges, read `DEPLOY.md`.
+
+`python eval/run_eval.py` prints citation/escalation numbers for the slide.
+
+The regulator endpoint is a mock (`POST /regulator/{authority}/submit`). Retrieval, two-agent gate, clocks, approval, audit, and CAPA are real. Swapping the mock for a real DISH endpoint is a URL change.
+
+---
+
+## ▶️ Running the Demo
+
 
 ### 1. Clone the repository
 ```bash

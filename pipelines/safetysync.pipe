@@ -12,7 +12,10 @@
         "name": "Incident intake"
       },
       "ui": {
-        "position": { "x": 40, "y": 160 },
+        "position": {
+          "x": 40,
+          "y": 160
+        },
         "nodeType": "default",
         "formDataValid": true
       }
@@ -30,15 +33,23 @@
           "modelTotalTokens": 131072
         },
         "name": "Agent 1 — Compliance Analyst",
-        "parameters": { "google": {} }
+        "parameters": {
+          "google": {}
+        }
       },
       "ui": {
-        "position": { "x": 340, "y": 60 },
+        "position": {
+          "x": 340,
+          "y": 60
+        },
         "nodeType": "default",
         "formDataValid": true
       },
       "input": [
-        { "lane": "questions", "from": "chat_1" }
+        {
+          "lane": "questions",
+          "from": "chat_1"
+        }
       ]
     },
     {
@@ -54,15 +65,23 @@
           "modelTotalTokens": 131072
         },
         "name": "Agent 2 — Compliance Verifier",
-        "parameters": { "google": {} }
+        "parameters": {
+          "google": {}
+        }
       },
       "ui": {
-        "position": { "x": 340, "y": 280 },
+        "position": {
+          "x": 340,
+          "y": 280
+        },
         "nodeType": "default",
         "formDataValid": true
       },
       "input": [
-        { "lane": "questions", "from": "chat_1" }
+        {
+          "lane": "questions",
+          "from": "chat_1"
+        }
       ]
     },
     {
@@ -74,12 +93,18 @@
         "name": "Analyst JSON"
       },
       "ui": {
-        "position": { "x": 680, "y": 70 },
+        "position": {
+          "x": 680,
+          "y": 70
+        },
         "nodeType": "default",
         "formDataValid": true
       },
       "input": [
-        { "lane": "answers", "from": "analyst" }
+        {
+          "lane": "answers",
+          "from": "analyst"
+        }
       ]
     },
     {
@@ -91,19 +116,28 @@
         "name": "Verifier JSON"
       },
       "ui": {
-        "position": { "x": 680, "y": 290 },
+        "position": {
+          "x": 680,
+          "y": 290
+        },
         "nodeType": "default",
         "formDataValid": true
       },
       "input": [
-        { "lane": "answers", "from": "verifier" }
+        {
+          "lane": "answers",
+          "from": "verifier"
+        }
       ]
     }
   ],
-  "project_id": "a3c8e1d0-7b54-4f2a-9e16-2c0d8b4f91aa",
+  "project_id": "cd838727-0937-4cf3-afdf-75188c96b339",
   "isLocked": false,
   "snapToGrid": true,
-  "snapGridSize": [10, 10],
+  "snapGridSize": [
+    10,
+    10
+  ],
   "version": 1,
-  "docRevision": 40
+  "docRevision": 1
 }

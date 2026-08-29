@@ -68,10 +68,12 @@ async def main() -> int:
     apikey = env.get("ROCKETRIDE_APIKEY") or os.environ.get("ROCKETRIDE_APIKEY", "")
     local_mode = is_local_extension_mode()
 
-    if not ENV_PATH.exists():
+    if not ENV_PATH.exists() and not local_mode:
         print("FAIL: .env is missing. Open the RocketRide sidebar, connect an engine,")
         print("      then copy .env.example to .env if the extension did not create one.")
         return 1
+    if not ENV_PATH.exists():
+        print("OK: local extension mode does not require a workspace .env file")
 
     ok = True
     if local_mode:
@@ -82,9 +84,11 @@ async def main() -> int:
             print("FAIL: local RocketRide engine is not running")
             print("      Open this workspace in VS Code to start the RocketRide extension.")
             ok = False
-    if not uri:
+    if not uri and not local_mode:
         print("FAIL: ROCKETRIDE_URI is empty in .env")
         ok = False
+    elif not uri:
+        print("OK: local engine supplies a dynamic URI")
     else:
         print(f"OK: ROCKETRIDE_URI={uri}")
 

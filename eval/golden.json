@@ -1,0 +1,14 @@
+[
+  {"incident_id": "INC-0001", "expected_reportable": true, "expected_clause_ids": ["FA-88", "MH-R103", "ESI-ACC-REPORT"], "expected_authorities": ["DISH", "ESIC"]},
+  {"incident_id": "INC-0007", "expected_reportable": true, "expected_clause_ids": ["BOCW-39", "BOCW-R210"], "expected_authorities": ["Inspector", "Board"]},
+  {"incident_id": "INC-0012", "expected_reportable": true, "expected_clause_ids": ["FA-88", "MH-R103", "EC-10B"], "expected_authorities": ["DISH", "Commissioner"]},
+  {"incident_id": "INC-0013", "expected_reportable": true, "expected_clause_ids": ["BOCW-39", "BOCW-R210", "EC-10B"], "expected_authorities": ["Inspector"]},
+  {"incident_id": "INC-0014", "expected_reportable": false, "expected_clause_ids": [], "expected_authorities": []},
+  {"incident_id": "INC-0024", "expected_reportable": false, "expected_clause_ids": [], "expected_authorities": []},
+  {"incident_id": "INC-0030", "expected_reportable": null, "expected_clause_ids": [], "expected_authorities": [], "expect_escalate": true},
+  {"incident_id": "INC-0031", "expected_reportable": null, "expected_clause_ids": [], "expected_authorities": [], "expect_escalate": true},
+  {"incident_id": "INC-0035", "expected_reportable": true, "expected_clause_ids": ["FA-88A", "MH-R104"], "expected_authorities": ["DISH"]},
+  {"incident_id": "INC-0038", "expected_reportable": true, "expected_clause_ids": ["FA-89"], "expected_authorities": ["DISH"]},
+  {"incident_id": "INC-0040", "expected_reportable": false, "expected_clause_ids": [], "expected_authorities": [], "expect_escalate": true},
+  {"incident_id": "INC-0006", "expected_reportable": true, "expected_clause_ids": ["FA-88", "ESI-ACC-REPORT"], "expected_authorities": ["DISH", "ESIC"]}
+]

@@ -1,0 +1,22 @@
+{
+  "name": "SafeSync smoke",
+  "components": [
+    {
+      "id": "in",
+      "provider": "webhook",
+      "config": {}
+    },
+    {
+      "id": "out",
+      "provider": "response",
+      "config": {},
+      "input": [
+        {
+          "lane": "text",
+          "from": "in"
+        }
+      ]
+    }
+  ],
+  "project_id": "ce0884e6-b050-4f76-bb58-8db556b8d27f"
+}

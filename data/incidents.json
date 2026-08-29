@@ -1,0 +1,929 @@
+[
+  {
+    "incident_id": "INC-0001",
+    "site_id": "S-BAD-02",
+    "hours_ago": 6,
+    "report_delay_hours": 2,
+    "reported_by": "supervisor",
+    "channel": "whatsapp_voice",
+    "raw_text": "Around 2:40pm at Badlapur Unit 2, a helper's left hand was caught in the unguarded nip point of the conveyor drive during belt cleaning. He was taken to Sai Hospital, admitted, three fingers crushed. Machine was running. Supervisor stopped the line after.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 30,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "conveyor_nip_point",
+      "guard_missing",
+      "cleaning_while_running"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_factory"
+  },
+  {
+    "incident_id": "INC-0002",
+    "site_id": "S-PUN-03",
+    "hours_ago": 18,
+    "report_delay_hours": 1,
+    "reported_by": "shift_incharge",
+    "channel": "whatsapp_text",
+    "raw_text": "Press shop line 4. Operator's right index finger amputated at the first joint on the 250T press. Dual palm button was bypassed with a wooden block. Taken to Ruby Hall, admitted, surgery tonight.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 45,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "press_shop",
+      "guard_bypass",
+      "amputation"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_factory"
+  },
+  {
+    "incident_id": "INC-0003",
+    "site_id": "S-NGP-01",
+    "hours_ago": 30,
+    "report_delay_hours": 3,
+    "reported_by": "supervisor",
+    "channel": "phone",
+    "raw_text": "Molten metal splash from ladle on furnace 2. Helper got burns on both legs, more than 20 percent BSA. Admitted to Orange City Hospital ICU. Will not work for weeks.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 40,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "molten_metal",
+      "ppe_gap",
+      "heat_stress"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_factory"
+  },
+  {
+    "incident_id": "INC-0004",
+    "site_id": "S-NSK-01",
+    "hours_ago": 9,
+    "report_delay_hours": 1,
+    "reported_by": "ehs_officer",
+    "channel": "app",
+    "raw_text": "Painter collapsed in spray booth after solvent exposure. Confined space permit not taken. Hospitalised at Wockhardt, still on oxygen. Doctor said minimum 4 days off.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 5,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "solvent_vapour",
+      "confined_space",
+      "permit_missing"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_factory"
+  },
+  {
+    "incident_id": "INC-0005",
+    "site_id": "S-AUR-01",
+    "hours_ago": 40,
+    "report_delay_hours": 4,
+    "reported_by": "supervisor",
+    "channel": "whatsapp_text",
+    "raw_text": "Hammer man on forging hammer 3, flying scale hit left eye. Globe ruptured. Admitted, will lose the eye. Safety glasses were in the cabin not on his face.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 21,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "flying_scale",
+      "eye_injury",
+      "ppe_gap"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_factory"
+  },
+  {
+    "incident_id": "INC-0006",
+    "site_id": "S-MUM-WH1",
+    "hours_ago": 22,
+    "report_delay_hours": 2,
+    "reported_by": "warehouse_incharge",
+    "channel": "email",
+    "raw_text": "Forklift reversing in aisle B crushed a picker against racking. Pelvis fracture, admitted to Lilavati. Reverse beeper not working, spotter not posted.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 35,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "forklift",
+      "pedestrian_interface",
+      "no_spotter"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_factory"
+  },
+  {
+    "incident_id": "INC-0007",
+    "site_id": "S-THN-CS1",
+    "hours_ago": 5,
+    "report_delay_hours": 1,
+    "reported_by": "site_engineer",
+    "channel": "whatsapp_voice",
+    "raw_text": "Scaffold at pier P-12, fitter fell from 6m while tying reinforcement. Midrail missing on that bay. Taken to Jupiter Hospital Thane, femur fracture, admitted. Will be off more than a week.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 28,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "work_at_height",
+      "scaffold_gap",
+      "fall"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_construction"
+  },
+  {
+    "incident_id": "INC-0008",
+    "site_id": "S-MUM-CS2",
+    "hours_ago": 14,
+    "report_delay_hours": 2,
+    "reported_by": "safety_officer",
+    "channel": "app",
+    "raw_text": "Tower crane L2, slinger's hand crushed between load and column while landing a beam. Three metacarpals fractured. Hospitalised at Hinduja. Banksman not in position.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 20,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "lifting_operations",
+      "crush",
+      "banksman_missing"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_construction"
+  },
+  {
+    "incident_id": "INC-0009",
+    "site_id": "S-PUN-CS3",
+    "hours_ago": 8,
+    "report_delay_hours": 1,
+    "reported_by": "foreman",
+    "channel": "whatsapp_text",
+    "raw_text": "Excavation for pile cap near span 8 collapsed on two labourers. One has chest injury and is on ventilator at Ruby Hall. Shoring was not in. Depth was 3.2m.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 30,
+      "persons_affected": 2
+    },
+    "hazard_tags": [
+      "excavation",
+      "collapse",
+      "shoring_missing"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_construction"
+  },
+  {
+    "incident_id": "INC-0010",
+    "site_id": "S-NAV-CS4",
+    "hours_ago": 11,
+    "report_delay_hours": 2,
+    "reported_by": "supervisor",
+    "channel": "phone",
+    "raw_text": "Confined space in tank T-04. Helper lost consciousness during grinding. Hot work permit expired yesterday. Admitted, suspected CO. Not returning this week.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 7,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "confined_space",
+      "hot_work",
+      "permit_expired"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_construction"
+  },
+  {
+    "incident_id": "INC-0011",
+    "site_id": "S-NGP-CS5",
+    "hours_ago": 26,
+    "report_delay_hours": 3,
+    "reported_by": "site_engineer",
+    "channel": "whatsapp_text",
+    "raw_text": "Dumper reversing on NH package hit a flagman. Compound fracture of tibia. Admitted to Wockhardt Nagpur. No banksman, reverse alarm dead.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": true,
+      "days_lost_estimate": 25,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "traffic_interface",
+      "reversing",
+      "no_spotter"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "reportable_construction"
+  },
+  {
+    "incident_id": "INC-0012",
+    "site_id": "S-BAD-02",
+    "hours_ago": 4,
+    "report_delay_hours": 0.5,
+    "reported_by": "plant_head",
+    "channel": "phone",
+    "raw_text": "Fatal at Badlapur Unit 2. Contractor electrician came in contact with 440V panel during live work. No LOTO. Declared dead at Sai Hospital 3:10pm. Family informed. DISH not yet notified.",
+    "media": [],
+    "outcome": {
+      "fatality": true,
+      "hospitalised": true,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "electrical",
+      "lockout_tagout",
+      "live_work"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "fatality"
+  },
+  {
+    "incident_id": "INC-0013",
+    "site_id": "S-MUM-CS2",
+    "hours_ago": 7,
+    "report_delay_hours": 0.4,
+    "reported_by": "project_manager",
+    "channel": "phone",
+    "raw_text": "Fatal fall from 18th floor slab at BKC Tower. Edge protection removed for concrete pour and not reinstated. Worker was tying shuttering. Police on site. Name withheld pending family.",
+    "media": [],
+    "outcome": {
+      "fatality": true,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "work_at_height",
+      "edge_protection_missing",
+      "fall"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "fatality"
+  },
+  {
+    "incident_id": "INC-0014",
+    "site_id": "S-PUN-03",
+    "hours_ago": 48,
+    "report_delay_hours": 1,
+    "reported_by": "operator",
+    "channel": "app",
+    "raw_text": "Near miss. A spanner dropped from mezzanine in assembly. Nobody hit. Tool lanyard was not used. No injury.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "dropped_object",
+      "work_at_height"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "near_miss"
+  },
+  {
+    "incident_id": "INC-0015",
+    "site_id": "S-NSK-01",
+    "hours_ago": 55,
+    "report_delay_hours": 2,
+    "reported_by": "painter",
+    "channel": "whatsapp_text",
+    "raw_text": "Almost slipped on wet floor near booth 2 after washdown. Caught the railing. No injury. Housekeeping delayed.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "slip",
+      "wet_floor"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "near_miss"
+  },
+  {
+    "incident_id": "INC-0016",
+    "site_id": "S-NGP-01",
+    "hours_ago": 60,
+    "report_delay_hours": 1,
+    "reported_by": "crane_operator",
+    "channel": "app",
+    "raw_text": "Crane limit switch tripped while lifting a mould. Load did not drop. No one under the load. Near miss only.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "crane",
+      "limit_switch"
+    ],
+    "control_present": true,
+    "near_miss": true,
+    "bucket": "near_miss"
+  },
+  {
+    "incident_id": "INC-0017",
+    "site_id": "S-MUM-WH1",
+    "hours_ago": 70,
+    "report_delay_hours": 1,
+    "reported_by": "picker",
+    "channel": "app",
+    "raw_text": "Pallet shifted on rack L3 when forklift turned. Nothing fell. No injury. We restacked.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "rack_collapse",
+      "forklift"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "near_miss"
+  },
+  {
+    "incident_id": "INC-0018",
+    "site_id": "S-THN-CS1",
+    "hours_ago": 36,
+    "report_delay_hours": 1,
+    "reported_by": "fitter",
+    "channel": "whatsapp_text",
+    "raw_text": "Rebar bundle slipped in sling by 20cm. Nobody under it. Tag line was on. No injury.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "lifting_operations"
+    ],
+    "control_present": true,
+    "near_miss": true,
+    "bucket": "near_miss"
+  },
+  {
+    "incident_id": "INC-0019",
+    "site_id": "S-PUN-CS3",
+    "hours_ago": 80,
+    "report_delay_hours": 2,
+    "reported_by": "supervisor",
+    "channel": "app",
+    "raw_text": "Excavator swing almost hit a surveyor who walked into the exclusion zone. We stopped work. No contact, no injury.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "plant_interface",
+      "exclusion_zone"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "near_miss"
+  },
+  {
+    "incident_id": "INC-0020",
+    "site_id": "S-NAV-CS4",
+    "hours_ago": 44,
+    "report_delay_hours": 1,
+    "reported_by": "welder",
+    "channel": "app",
+    "raw_text": "Flash from welding in pipe rack. Helper looked away in time. No burn. Screens were not up.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "hot_work",
+      "arc_flash"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "near_miss"
+  },
+  {
+    "incident_id": "INC-0021",
+    "site_id": "S-NGP-CS5",
+    "hours_ago": 90,
+    "report_delay_hours": 1,
+    "reported_by": "flagman",
+    "channel": "whatsapp_text",
+    "raw_text": "Car came too close to the cone line. No one hit. We reset cones. Near miss with public traffic.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "traffic_interface"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "near_miss"
+  },
+  {
+    "incident_id": "INC-0022",
+    "site_id": "S-AUR-01",
+    "hours_ago": 100,
+    "report_delay_hours": 2,
+    "reported_by": "fitter",
+    "channel": "app",
+    "raw_text": "Oil leak on shop floor, one person slipped but held the machine. No fall, no injury. Maintenance wiped it.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "slip",
+      "oil_spill"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "near_miss"
+  },
+  {
+    "incident_id": "INC-0023",
+    "site_id": "S-KLY-01",
+    "hours_ago": 110,
+    "report_delay_hours": 1,
+    "reported_by": "operator",
+    "channel": "app",
+    "raw_text": "E-stop used when a visitor walked toward a running line. Line stopped. No contact. Visitor induction incomplete.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "pedestrian_interface"
+    ],
+    "control_present": true,
+    "near_miss": true,
+    "bucket": "near_miss"
+  },
+  {
+    "incident_id": "INC-0024",
+    "site_id": "S-KLY-01",
+    "hours_ago": 72,
+    "report_delay_hours": 1,
+    "reported_by": "operator",
+    "channel": "whatsapp_text",
+    "raw_text": "Near miss on packing conveyor. I was cleaning the belt, my glove almost went into the unguarded nip at the tail pulley. Machine was still running. Guard has been missing since last week. No injury this time.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "conveyor_nip_point",
+      "guard_missing",
+      "cleaning_while_running"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "same_hazard_nearmiss"
+  },
+  {
+    "incident_id": "INC-0025",
+    "site_id": "S-AUR-01",
+    "hours_ago": 96,
+    "report_delay_hours": 2,
+    "reported_by": "helper",
+    "channel": "whatsapp_voice",
+    "raw_text": "Forging shop transfer conveyor, same story. Guard on drive is off for maintenance and not put back. My sleeve caught for a second then tore. No injury. Please fix before someone loses a hand.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "conveyor_nip_point",
+      "guard_missing"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "same_hazard_nearmiss"
+  },
+  {
+    "incident_id": "INC-0026",
+    "site_id": "S-PUN-03",
+    "hours_ago": 120,
+    "report_delay_hours": 1,
+    "reported_by": "supervisor",
+    "channel": "app",
+    "raw_text": "Assembly takeaway conveyor nip point exposed. Intern reached to remove a jammed carton. Pulled hand back. No injury. Guard bolts are missing.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "conveyor_nip_point",
+      "guard_missing"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "same_hazard_nearmiss"
+  },
+  {
+    "incident_id": "INC-0027",
+    "site_id": "S-MUM-WH1",
+    "hours_ago": 50,
+    "report_delay_hours": 1,
+    "reported_by": "picker",
+    "channel": "app",
+    "raw_text": "Inbound belt conveyor, in-running nip not guarded after last belt change. Carton got pulled in. Nobody hurt. Same unguarded conveyor issue we keep logging.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "conveyor_nip_point",
+      "guard_missing"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "same_hazard_nearmiss"
+  },
+  {
+    "incident_id": "INC-0028",
+    "site_id": "S-NSK-01",
+    "hours_ago": 140,
+    "report_delay_hours": 2,
+    "reported_by": "technician",
+    "channel": "whatsapp_text",
+    "raw_text": "Paint line overhead conveyor, chain guard left open. I was greasing, almost pinched. No injury. Guard_missing again.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "conveyor_nip_point",
+      "guard_missing"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "same_hazard_nearmiss"
+  },
+  {
+    "incident_id": "INC-0029",
+    "site_id": "S-NGP-01",
+    "hours_ago": 160,
+    "report_delay_hours": 1,
+    "reported_by": "helper",
+    "channel": "phone",
+    "raw_text": "Sand plant conveyor, tail drum unguarded. Spade nearly pulled from my hand while cleaning. No injury. This is the same nip point problem as other plants.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "conveyor_nip_point",
+      "guard_missing",
+      "cleaning_while_running"
+    ],
+    "control_present": false,
+    "near_miss": true,
+    "bucket": "same_hazard_nearmiss"
+  },
+  {
+    "incident_id": "INC-0030",
+    "site_id": "S-KLY-01",
+    "hours_ago": 10,
+    "report_delay_hours": 3,
+    "reported_by": "supervisor",
+    "channel": "whatsapp_text",
+    "raw_text": "Helper twisted ankle on packing floor after a carton fell. Went to the occupational health centre. Doctor put crepe bandage and sent him home. He says he will try light duty tomorrow. Not sure if he will miss 48 hours. No hospital admission.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 1,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "manual_handling",
+      "slip"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "ambiguous"
+  },
+  {
+    "incident_id": "INC-0031",
+    "site_id": "S-THN-CS1",
+    "hours_ago": 12,
+    "report_delay_hours": 2,
+    "reported_by": "site_engineer",
+    "channel": "whatsapp_voice",
+    "raw_text": "Labourer cut his forearm on rebar. Site first aid, 6 stitches at a nearby clinic, came back to site in the afternoon sitting in the cabin. He might work tomorrow, might not. Not admitted overnight. Is this 48 hours or not? Nobody knows yet.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 1,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "work_at_height",
+      "cut"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "ambiguous"
+  },
+  {
+    "incident_id": "INC-0032",
+    "site_id": "S-PUN-03",
+    "hours_ago": 16,
+    "report_delay_hours": 4,
+    "reported_by": "hr",
+    "channel": "email",
+    "raw_text": "Operator complained of back pain after lifting a fixture. OHC gave painkiller. He left early. Attendance for next two days is unknown. No fracture on the note. Is this reportable under s.88? Duration of incapacity not confirmed.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 2,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "manual_handling"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "ambiguous"
+  },
+  {
+    "incident_id": "INC-0033",
+    "site_id": "S-NAV-CS4",
+    "hours_ago": 20,
+    "report_delay_hours": 5,
+    "reported_by": "supervisor",
+    "channel": "phone",
+    "raw_text": "Welder got a flash. Eyes watering, went to city clinic, not admitted. Doctor said rest 24 to 72 hours depending on how he feels. We do not have a medical certificate yet. Could be under 48 hours, could be over.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 2,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "hot_work",
+      "eye_injury"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "ambiguous"
+  },
+  {
+    "incident_id": "INC-0034",
+    "site_id": "S-AUR-01",
+    "hours_ago": 15,
+    "report_delay_hours": 2,
+    "reported_by": "supervisor",
+    "channel": "app",
+    "raw_text": "Finger jammed in a die, X-ray at local clinic, no fracture according to the tech but swelling is bad. He is at home. Occupier asked if we file Form 24 now or wait to see if he misses two days.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 2,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "press_shop"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "ambiguous"
+  },
+  {
+    "incident_id": "INC-0035",
+    "site_id": "S-NSK-01",
+    "hours_ago": 3,
+    "report_delay_hours": 1,
+    "reported_by": "shift_incharge",
+    "channel": "phone",
+    "raw_text": "Fire in paint shop solvent store. Sprinkler knocked it down in two minutes. Nobody injured, nobody admitted. Store door was left open. Whole bay evacuated.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "fire",
+      "chemical_storage",
+      "solvent_vapour"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "dangerous_occurrence"
+  },
+  {
+    "incident_id": "INC-0036",
+    "site_id": "S-NGP-01",
+    "hours_ago": 28,
+    "report_delay_hours": 1,
+    "reported_by": "plant_head",
+    "channel": "email",
+    "raw_text": "Cupola spark box explosion during light-up. No injury. Roof sheet blown. This is a dangerous occurrence even though nobody was hurt.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "explosion",
+      "molten_metal"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "dangerous_occurrence"
+  },
+  {
+    "incident_id": "INC-0037",
+    "site_id": "S-PUN-03",
+    "hours_ago": 33,
+    "report_delay_hours": 2,
+    "reported_by": "maintenance",
+    "channel": "app",
+    "raw_text": "Mezzanine walkway partial collapse during weekend. Area was empty. No injury. Structural crack. Building part collapse.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "collapse_of_building"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "dangerous_occurrence"
+  },
+  {
+    "incident_id": "INC-0038",
+    "site_id": "S-NGP-01",
+    "hours_ago": 50,
+    "report_delay_hours": 8,
+    "reported_by": "occupational_health",
+    "channel": "email",
+    "raw_text": "Foundry fettler diagnosed with silicosis after periodic medical. Chest X-ray and spirometry attached. He is still coming to work on advice of the doctor pending further tests. Third Schedule disease.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "silica_dust",
+      "occupational_disease"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "occupational_disease"
+  },
+  {
+    "incident_id": "INC-0039",
+    "site_id": "S-THN-CS1",
+    "hours_ago": 60,
+    "report_delay_hours": 10,
+    "reported_by": "occupational_health",
+    "channel": "email",
+    "raw_text": "Concrete crew member noise-induced hearing loss confirmed on audiometry. Not an accident. Occupational disease notification path. He continues on site with PPE.",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [
+      "noise",
+      "occupational_disease"
+    ],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "occupational_disease"
+  },
+  {
+    "incident_id": "INC-0040",
+    "site_id": "S-PUN-CS3",
+    "hours_ago": 2,
+    "report_delay_hours": 0.2,
+    "reported_by": "unknown",
+    "channel": "whatsapp_voice",
+    "raw_text": "sir pls come fast something happened near span 4 guy is down not sure if he fell or machine... hospital maybe... will msg later battery dying",
+    "media": [],
+    "outcome": {
+      "fatality": false,
+      "hospitalised": false,
+      "days_lost_estimate": 0,
+      "persons_affected": 1
+    },
+    "hazard_tags": [],
+    "control_present": false,
+    "near_miss": false,
+    "bucket": "garbled"
+  }
+]

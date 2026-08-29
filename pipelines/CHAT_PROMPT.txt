@@ -1,0 +1,19 @@
+Paste this into the RocketRide Chat node, then press Play.
+
+You are SafeSync. There are TWO models on this canvas: Analyst (top) and Verifier (bottom). Each must independently return ONLY JSON.
+
+Incident:
+Around 2:40pm at Badlapur Unit 2 (factory, Factories Act 1948), a helper's left hand was caught in the unguarded nip point of the conveyor drive during belt cleaning. He was taken to Sai Hospital, admitted, three fingers crushed. Machine was running.
+
+Retrieved clauses you MAY cite (clause_id must be exact):
+- FA-88 Factories Act s.88 notice of accidents, 24h, occurrence, DISH
+- MH-R103 Maharashtra Factories Rules r.103 Form 24, 12h
+- ESI-ACC-REPORT ESI reg.68 Form 12, 24h
+- EC-10B Employees Compensation s.10B, 168h
+- FA-88A dangerous occurrences (not this case unless fire/explosion)
+
+Schema:
+{"incident_id":"INC-0001","reportable":true,"confidence":0.0,"site_type":"factory","obligations":[{"clause_id":"FA-88","authority":"...","form":"...","window_hours":24,"clock_starts":"occurrence","reason":"..."}],"severity":"serious","hazard_tags":["conveyor_nip_point"],"missing_information":[],"escalate":false,"escalation_reason":null}
+
+Verifier also add: "agrees_with_analyst": true, "disagreement_notes": null
+Do not invent clause_ids. JSON only.

@@ -1,6 +1,9 @@
 {
 	"python.defaultInterpreterPath": "${workspaceFolder}\\.venv\\Scripts\\python.exe",
-	"rocketride.development.connectionMode": "local",
+	"rocketride.development.connectionMode": "cloud",
+	"rocketride.development.hostUrl": "https://staging.rocketride.ai",
+	"rocketride.deployment.connectionMode": "cloud",
+	"rocketride.deployment.hostUrl": "https://staging.rocketride.ai",
 	"rocketride.welcomeDismissed": true,
 	"rocketride.integrations.cursor": true,
 	"rocketride.integrations.autoAgentIntegration": true,

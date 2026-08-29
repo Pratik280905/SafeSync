@@ -1,0 +1,263 @@
+{
+  "version": "2026-08-28",
+  "jurisdictions": [
+    {
+      "id": "FACTORIES_ACT_1948",
+      "name": "The Factories Act, 1948",
+      "authority": "Directorate of Industrial Safety and Health (DISH), Maharashtra",
+      "source_pdf": "data/sources/factories_act_1948.pdf",
+      "clauses": [
+        {
+          "clause_id": "FA-88",
+          "citation": "Factories Act 1948, s. 88",
+          "heading": "Notice of certain accidents",
+          "source_page": 42,
+          "verified": true,
+          "trigger": {
+            "site_types": ["factory"],
+            "outcomes": ["death", "bodily_injury"],
+            "condition": "injury prevents the person from working for 48 hours or more immediately following the accident, or death",
+            "keywords": ["death", "amputation", "fracture", "hospitalised", "crush", "48 hours", "admitted"]
+          },
+          "obligation": {
+            "who": "manager / occupier",
+            "notify": "Inspector of Factories / DISH Maharashtra",
+            "form": "notice as prescribed under state rules",
+            "window_hours": 24,
+            "clock_starts": "occurrence"
+          },
+          "text": "Where in any factory an accident occurs which causes death, or which causes any bodily injury by reason of which the person injured is prevented from working for a period of forty-eight hours or more immediately following the accident, or which is of such nature as may be prescribed in this behalf, the manager of the factory shall send notice thereof to such authorities, and in such form and within such time, as may be prescribed."
+        },
+        {
+          "clause_id": "FA-88A",
+          "citation": "Factories Act 1948, s. 88A",
+          "heading": "Notice of certain dangerous occurrences",
+          "source_page": 43,
+          "verified": true,
+          "trigger": {
+            "site_types": ["factory"],
+            "outcomes": ["dangerous_occurrence"],
+            "condition": "prescribed dangerous occurrence whether or not any bodily injury is caused",
+            "keywords": ["fire", "explosion", "collapse", "gassing", "burst", "escape of steam", "no injury"]
+          },
+          "obligation": {
+            "who": "manager / occupier",
+            "notify": "Inspector of Factories / DISH Maharashtra",
+            "form": "notice of dangerous occurrence",
+            "window_hours": 24,
+            "clock_starts": "occurrence"
+          },
+          "text": "Where in a factory any dangerous occurrence of such nature as may be prescribed occurs, whether causing any bodily injury or disability or not, the manager of the factory shall send notice thereof to such authorities, and in such form and within such time, as may be prescribed."
+        },
+        {
+          "clause_id": "FA-89",
+          "citation": "Factories Act 1948, s. 89",
+          "heading": "Notice of certain diseases",
+          "source_page": 43,
+          "verified": true,
+          "trigger": {
+            "site_types": ["factory"],
+            "outcomes": ["occupational_disease"],
+            "condition": "worker contracts any disease specified in the Third Schedule",
+            "keywords": ["occupational disease", "silicosis", "asbestosis", "lead poisoning", "dermatitis", "noise induced", "Third Schedule"]
+          },
+          "obligation": {
+            "who": "manager / medical practitioner",
+            "notify": "Chief Inspector / DISH Maharashtra",
+            "form": "notice of disease",
+            "window_hours": 48,
+            "clock_starts": "reported"
+          },
+          "text": "Where any worker in a factory contracts any disease specified in the Third Schedule, the manager of the factory shall send notice thereof to such authorities, and in such form and within such time, as may be prescribed. If any medical practitioner attends on a person who is or has been employed in a factory and who is suffering from any disease specified in the Third Schedule, the medical practitioner shall without delay send a report in writing to the office of the Chief Inspector."
+        }
+      ]
+    },
+    {
+      "id": "MH_FACTORIES_RULES_1963",
+      "name": "Maharashtra Factories Rules, 1963",
+      "authority": "DISH Maharashtra",
+      "source_pdf": "data/sources/mh_factories_rules_1963.pdf",
+      "clauses": [
+        {
+          "clause_id": "MH-R103",
+          "citation": "Maharashtra Factories Rules 1963, r. 103",
+          "heading": "Notice of accident",
+          "source_page": 88,
+          "verified": true,
+          "trigger": {
+            "site_types": ["factory"],
+            "outcomes": ["death", "bodily_injury"],
+            "condition": "accident causing death or injury preventing work for 48 hours or more",
+            "keywords": ["Form 24", "notice of accident", "telephone", "fatal"]
+          },
+          "obligation": {
+            "who": "manager",
+            "notify": "Inspector of Factories and DISH",
+            "form": "Form 24",
+            "window_hours": 12,
+            "clock_starts": "occurrence"
+          },
+          "text": "Where any accident occurs in a factory which causes death, or which causes any bodily injury by reason of which the person injured is prevented from working for a period of forty-eight hours or more, the manager shall forthwith send notice thereof by telephone, special messenger or telegram to the Inspector and the Administrative Medical Officer, Employees' State Insurance Scheme, and shall also, within twelve hours of the occurrence, send a written report in Form 24 to the Inspector, the Administrative Medical Officer and the nearest police station (in case of a fatal accident)."
+        },
+        {
+          "clause_id": "MH-R104",
+          "citation": "Maharashtra Factories Rules 1963, r. 104",
+          "heading": "Notice of dangerous occurrence",
+          "source_page": 89,
+          "verified": true,
+          "trigger": {
+            "site_types": ["factory"],
+            "outcomes": ["dangerous_occurrence"],
+            "condition": "explosion, fire, collapse of building, bursting of plant, gassing, irrespective of injury",
+            "keywords": ["fire", "explosion", "collapse of building", "bursting", "gassing"]
+          },
+          "obligation": {
+            "who": "manager",
+            "notify": "Inspector of Factories",
+            "form": "Form 24A",
+            "window_hours": 12,
+            "clock_starts": "occurrence"
+          },
+          "text": "Where in a factory any of the following dangerous occurrences take place, namely explosion, fire, collapse of a building or part thereof, bursting of a plant used for containing or transmitting steam or other gas, or gassing, the manager shall send notice thereof in Form 24A to the Inspector within twelve hours of the occurrence, whether any bodily injury is caused or not."
+        }
+      ]
+    },
+    {
+      "id": "BOCW_ACT_1996",
+      "name": "The Building and Other Construction Workers (Regulation of Employment and Conditions of Service) Act, 1996",
+      "authority": "Labour Commissioner / BOCW Board, Maharashtra",
+      "source_pdf": "data/sources/bocw_act_1996.pdf",
+      "clauses": [
+        {
+          "clause_id": "BOCW-39",
+          "citation": "BOCW Act 1996, s. 39",
+          "heading": "Notice of accidents",
+          "source_page": 18,
+          "verified": true,
+          "trigger": {
+            "site_types": ["construction"],
+            "outcomes": ["death", "bodily_injury"],
+            "condition": "accident causing death, or bodily injury preventing work for 48 hours or more",
+            "keywords": ["death", "fall from height", "scaffold", "crane", "excavation collapse", "hospitalised"]
+          },
+          "obligation": {
+            "who": "employer",
+            "notify": "Inspector and the Board",
+            "form": "notice as prescribed",
+            "window_hours": 24,
+            "clock_starts": "occurrence"
+          },
+          "text": "Where in any establishment an accident occurs which causes death or which causes any bodily injury by reason of which the person injured is prevented from working for a period of forty-eight hours or more immediately following the accident, or which is of such a nature as may be prescribed, the employer shall give notice thereof to such authorities, in such form and within such time as may be prescribed."
+        }
+      ]
+    },
+    {
+      "id": "BOCW_CENTRAL_RULES_1998",
+      "name": "Building and Other Construction Workers (Regulation of Employment and Conditions of Service) Central Rules, 1998",
+      "authority": "Director General, Inspection / State BOCW Inspector",
+      "source_pdf": "data/sources/bocw_central_rules_1998.pdf",
+      "clauses": [
+        {
+          "clause_id": "BOCW-R210",
+          "citation": "BOCW Central Rules 1998, r. 210",
+          "heading": "Notice of accident",
+          "source_page": 92,
+          "verified": true,
+          "trigger": {
+            "site_types": ["construction"],
+            "outcomes": ["death", "bodily_injury"],
+            "condition": "fatal accident or accident causing disablement",
+            "keywords": ["Form XIV", "fatal", "disablement", "construction accident"]
+          },
+          "obligation": {
+            "who": "employer",
+            "notify": "Inspector, Board, and (if fatal) the police",
+            "form": "Form XIV",
+            "window_hours": 4,
+            "clock_starts": "occurrence"
+          },
+          "text": "Where any accident at the construction site causes death or disablement of a building worker, the employer shall give notice thereof by telephone, fax or similar means to the Inspector and the Board, and in the case of a fatal accident also to the officer in charge of the nearest police station, and shall send a report of the accident in Form XIV to those authorities. For a fatal accident the written report shall be sent within four hours of the occurrence; for other reportable accidents the written report shall be sent as soon as practicable and in any case within seventy-two hours."
+        },
+        {
+          "clause_id": "BOCW-R223",
+          "citation": "BOCW Central Rules 1998, r. 223",
+          "heading": "Notification of occupational diseases",
+          "source_page": 98,
+          "verified": true,
+          "trigger": {
+            "site_types": ["construction"],
+            "outcomes": ["occupational_disease"],
+            "condition": "building worker contracts a notifiable occupational disease",
+            "keywords": ["silicosis", "asbestosis", "occupational disease", "hearing loss"]
+          },
+          "obligation": {
+            "who": "employer",
+            "notify": "Inspector and Board",
+            "form": "notice of occupational disease",
+            "window_hours": 48,
+            "clock_starts": "reported"
+          },
+          "text": "Where a building worker contracts any occupational disease specified in the Schedule, the employer shall send notice thereof to the Inspector and the Board in the prescribed form within forty-eight hours of the disease coming to his knowledge."
+        }
+      ]
+    },
+    {
+      "id": "ESI",
+      "name": "Employees' State Insurance Act, 1948 / ESI (General) Regulations, 1950",
+      "authority": "ESIC Branch Office",
+      "source_pdf": "data/sources/esi_regulations_1950.pdf",
+      "clauses": [
+        {
+          "clause_id": "ESI-ACC-REPORT",
+          "citation": "ESI (General) Regulations 1950, reg. 68",
+          "heading": "Accident report to ESIC",
+          "source_page": 24,
+          "verified": true,
+          "trigger": {
+            "site_types": ["factory", "construction"],
+            "outcomes": ["death", "bodily_injury"],
+            "condition": "employment injury to an insured person",
+            "keywords": ["ESI", "insured person", "employment injury", "Form 12"]
+          },
+          "obligation": {
+            "who": "employer",
+            "notify": "nearest ESIC Branch Office",
+            "form": "Form 12 (accident report)",
+            "window_hours": 24,
+            "clock_starts": "occurrence"
+          },
+          "text": "Every employer shall send a report in Form 12 to the appropriate Branch Office in respect of any accident causing employment injury to an insured person, immediately, and in any case not later than forty-eight hours after the occurrence of the accident or after the accident comes to the notice of the employer. Where the injury results in death, the report shall be sent immediately."
+        }
+      ]
+    },
+    {
+      "id": "EC_ACT_1923",
+      "name": "The Employees' Compensation Act, 1923",
+      "authority": "Commissioner for Employees' Compensation",
+      "source_pdf": "data/sources/ec_act_1923.pdf",
+      "clauses": [
+        {
+          "clause_id": "EC-10B",
+          "citation": "Employees' Compensation Act 1923, s. 10B",
+          "heading": "Report of fatal accidents and serious bodily injuries",
+          "source_page": 12,
+          "verified": true,
+          "trigger": {
+            "site_types": ["factory", "construction"],
+            "outcomes": ["death", "serious_injury"],
+            "condition": "accident resulting in death or serious bodily injury",
+            "keywords": ["fatal", "serious bodily injury", "Commissioner", "compensation"]
+          },
+          "obligation": {
+            "who": "employer",
+            "notify": "Commissioner for Employees' Compensation",
+            "form": "report under s. 10B",
+            "window_hours": 168,
+            "clock_starts": "occurrence"
+          },
+          "text": "Where, by any law for the time being in force, notice is required to be given to any authority, by or on behalf of an employer, of any accident occurring on his premises which results in death or serious bodily injury, the person required to give the notice shall also send, within seven days of the death or serious bodily injury, a report to the Commissioner giving the circumstances attending the death or serious bodily injury."
+        }
+      ]
+    }
+  ]
+}
